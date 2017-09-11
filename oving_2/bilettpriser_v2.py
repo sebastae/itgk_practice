@@ -73,6 +73,7 @@ class Ticket:
 
     def __init__(self, ticket_type):
         self.type = ticket_type
+        
 
 
     def calculatePrice(self):
