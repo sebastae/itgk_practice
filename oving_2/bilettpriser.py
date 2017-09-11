@@ -1,6 +1,7 @@
-#!/usr/bin/env pyhton3.6
+#!/usr/bin/env python3.6
 # Author: Sebastian Ellefsen
 # Date created: 04.09.17
+# Github: https://github.com/sebastae/itgk_practice/tree/master/oving_2
 
 days_until_depart_str = input("Dager til du skal reise: ")
 
