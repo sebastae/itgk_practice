@@ -16,6 +16,8 @@ def multSquare(n):
 def primeTo(n):
     primes = []
     for i in range(1,n+1):
+        if i%100 == 0:
+            print("Jobber med intervallet [{0},{1})".format(i,i+100),end='\r')
         for j in range(1,i+1):
             if j == i and i!=1:
                 primes.append(j)
