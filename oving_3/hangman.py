@@ -12,6 +12,7 @@ def getWordsOnline():
         Please install it  from https://pypi.python.org/pypi/beautifulsoup4
         You can also install the module with $ pip install beautifulsoup4
         """)
+        exit()
 
     try:
         import requests
@@ -20,6 +21,7 @@ def getWordsOnline():
         Please install it  from https://pypi.python.org/pypi/requests
         You can also install the module with $ pip install requests
         """)
+        exit()
 
 
     print("Fetching nouns from http://www.talkenglish.com/vocabulary/top-1500-nouns.aspx")
