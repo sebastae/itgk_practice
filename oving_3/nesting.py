@@ -23,6 +23,7 @@ def primeTo(n):
                 primes.append(j)
             elif j>1 and i%j==0:
                 break
+    print()
     for p in primes:
         print(p)
 
