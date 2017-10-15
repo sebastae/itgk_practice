@@ -110,7 +110,7 @@ while True:
     guess = None
     accept = False
     while not accept:
-        guess = input("Guess a letter: ")
+        guess = input("Guess a letter: ").lower()
         if(len(guess) != 1):
             print("ONE letter")
         else:

@@ -1,0 +1,27 @@
+a) Hvor mange forskjellige heltall kan representeres ved å bruke 4 bytes?
+	2^(32) = mye
+b) Hva er en DAC? Nevn et bruksområde for for disse enhetene.
+	DAC står for Digital-Analog-Converter
+	DAC brukes f.eks når man skal spille av lyd fra en digital enhet
+
+c) Hva er 18 i totallssystemet? Hva er 18 i 16 tallssystemet?
+	18 på binær:	10010
+	18 på hex:	0x12
+
+d) Skriv OLE ved hjelp av ASCII.
+	4F 4C 45
+
+e) Hva er en piksel, og hva er dens funksjon i datamaskinens sammenheng?
+	En piksel er et enkelt farget punkt i et bilde, mange piksler sammen denner et fullt bilde.
+
+
+f) Hva er forskjellen på analog og digital lyd? Hvordan kan vi gå fra den ene til den andre?
+	Analog lyd er representert ved spenningsforskjeller i elektriske signaler, og er en kontinuerlig kurve.
+	Digital lyd er representert av 16-bits målinger på regulære intervaller (samples), ved å ha en høy samplingsfrekvens
+	kan vi tilnærme oss en kurve.
+
+	Vi konverterer mellom analog og digital med DAC og ADC.
+
+g)  Hva er metadata?
+	Metadata er data som beskriver annen data. I en datamaskin må vi beskrive hva verdiene vi har lagret beskriver,
+	ellers er det bare tall.

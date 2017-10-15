@@ -1,0 +1,44 @@
+a) Hva er psaudokode?
+    Pseudokode er en "menneske-leselig" måte å beskrive hvordan et program skal kjøres.
+
+    Pseudokode for guess.py:
+    
+        let max = user input
+        let random_number = random number between 1 and max
+        while true do
+            let guess = user input
+            if guess == random_number:
+                tell user correct
+                break loop and exit program
+            else:
+                if guess < random_number:
+                    tell user higher
+                else:
+                    tell user lower
+
+
+
+b) Hva er et flytskjema?
+    Et flytskjema er en måte å beskrive kjøringen av et program gjennom et skjema
+    som viser alle forgreninger og operasjoner i programmet.
+
+c) Hva er debugging?
+    Debugging er å gå gjennom programmet og rette opp feil (bugs)
+
+d) Hva er forskjellen på høynivå- og lavnivå-programmeringsspråk?
+    Lavnivå-språk ligger nærmere maskinkode og har strengere synaks, man må
+    f.eks definere størrelse og datatype på variabler.
+
+    Høynivå-språk er mye mer "liberale" og er bygget på lavnivå-språk, de er ofte mye mer tilgivende og
+    kan ligne mer på det språket vi snakker enn lavnivå-språk.
+
+e) Forklar de fem stegene i Hente/Utføre kretsen
+
+    1. Instruction Fetch (IF): Instruksjonen hentes fra adressen som programmtelleren peker på
+    2. Instruction Decode (ID): Instruksjonen dekodes, "forstås", og finner ut hvilke data den trenger
+    3. Data Fetch (DF): Dataene som operasjonen skal utføres på hentes ut fra minnet
+    4. Execute (EX): Operasjonen utføres på datane (f.eks ADD)
+    5. Result Return (RR): Resultatet skrives til en tilordnet minneadresse.
+
+f) Hva gjør programtelleren (PC)?
+    Programtelleren peker til adressen der den neste instruksjonen er lagret.
